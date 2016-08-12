@@ -113,6 +113,30 @@ A quick way to get started is with Vagrant and VirtualBox.
 ### Requirements
 - [Vagrant](http://www.vagrantup.com/downloads.html)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+- 
+### Chef Files and tree directory structure
+The files are configured to use a tree directory structure as you can see below.
+So consider that it's a must to uncompress Vagrant_Chef-Solo_LAMP/chef-archive/chef.tar.gz in ../chef.
+
+For example:
+
+~/vagrant_projects$ tree -L 2
+.                                                                                                                                                                                   
+├── chef                                                                                                                                                                            
+│   ├── cookbooks                                                                                                                                                                   
+│   ├── data_bags                                                                                                                                                                   
+│   ├── nodes                                                                                                                                                                       
+│   ├── roles                                                                                                                                                                       
+│   └── site-cookbooks                                                                                                                                                              
+├── Vagrant_Chef-Solo_LAMP                                                                                                                                                          
+│   ├── chef-archive                                                                                                                                                                
+│   ├── data                                                                                                                                                                        
+│   ├── images                                                                                                                                                                      
+│   ├── LICENSE                                                                                                                                                                     
+│   ├── README.md                                                                                                                                                                   
+│   ├── site                                                                                                                                                                        
+│   ├── Vagrantfile                                                                                                                                                                 
+│   └── Vagrantfile.chef                                                                                                                                                            
 
 vagrant up
 ```
