@@ -100,8 +100,6 @@ site-cookbooks/apache2/recipes/vhosts.rb
 	vagrant-omnibus (1.4.1) (REQUIRED)
 	vagrant-share (1.1.5, system) (REQUIRED)
 
-URL To Test once Vagrant is up and running: http://www.example.vm/index.php
-C
 
 ## Getting Started
 A quick way to get started is with Vagrant and VirtualBox.
@@ -133,8 +131,8 @@ For example:
 │   ├── site                                                                                                                                                                        
 │   ├── Vagrantfile                                                                                                                                                                 
 │   └── Vagrantfile.chef                                                                                                                                                            
-
-vagrant up
+```
+	vagrant up
 ```
 
 Wait a few minutes for the server to be created and provisioned.  Access the app by going to this URL: http://www.example.vm/index.php
@@ -142,19 +140,19 @@ Wait a few minutes for the server to be created and provisioned.  Access the app
 ### Additional vagrant commands
 **SSH to the box**
 ```
-vagrant ssh
+	vagrant ssh
 ```
 
 **Re-provision the box to apply the changes you made to the Ansible configuration**
 ```
-vagrant provision
+	vagrant provision
 
 **Reboot the box**
 ```
-vagrant reload
+	vagrant reload
 ```
 
 **Shutdown the box**
 ```
-vagrant halt
+	vagrant halt
 ```
