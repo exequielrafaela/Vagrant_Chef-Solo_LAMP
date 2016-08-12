@@ -59,12 +59,12 @@ You don't need to know about this, but I will cover it here for completeness. Ch
 
 From my understanding, "Data-Bags" provide additional data to your Recipes, this could be a list of admins or databases to create, or something similar. I haven't used them, so I'm not familiar with them.
 
-====================
+___________________
 
 Chef Solo is used to provision and configures the following sofware that are commonly used in a LAMP Satck:
 
 ## cookbooks
-===================
+
 - apache2
 - apt
 - build-essential
@@ -85,11 +85,9 @@ Chef Solo is used to provision and configures the following sofware that are com
 - yum-mysql-community
 
 ## roles - at this time a single role was created for both WEB and DB. Will breakout the role in future update for expanssion and growth. DB credentials are stored in this file also to setup
-=========================
 roles/vagrant-test-box.rb
 
 ## recipes - setup apache2 vhosts in file 
-===============================
 site-cookbooks/apache2/recipes/vhosts.rb
 
 **Tested with OS:** Ubuntu 12.04.4 LTS x64
