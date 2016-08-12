@@ -91,21 +91,17 @@ roles/vagrant-test-box.rb
 ## recipes - setup apache2 vhosts in file 
 site-cookbooks/apache2/recipes/vhosts.rb
 
-**Tested with OS:** Ubuntu 12.04.4 LTS x64
+**Tested with Host OS:** Ubuntu 14.04.4 LTS x64 (and same vagrant box  "ubuntu/trusty64" version)
 
-**Tested with Vagrant: Vagrant 1.6.3
+**Tested with Vagrant: Vagrant 1.8.5
 **Test
-
-	vagrant-berkshelf (3.0.1) (optional) not used at this time
-	vagrant-hostmanager (1.5.0) (required) - adds a host entry to your loacl machine for www.example.vm for 192.168.33.10
-	vagrant-login (1.0.1, system) (optional)
-	vagrant-omnibus (1.4.1) (required) - ensures using the latest version of chef (can be slow to download at provisioning  
-	vagrant-share (1.1.1, system) (required)
-
+	vagrant-berkshelf (4.1.0) (OPTIONAL)
+	vagrant-hostmanager (1.8.5) (REQUIRED)
+	vagrant-omnibus (1.4.1) (REQUIRED)
+	vagrant-share (1.1.5, system) (REQUIRED)
 
 URL To Test once Vagrant is up and running: http://www.example.vm/index.php
 C
-
 
 ## Getting Started
 A quick way to get started is with Vagrant and VirtualBox.
