@@ -9,7 +9,7 @@
   <a href="#">https://supermarket.chef.io/cookbooks/</a> |
   <a href="#">https://goo.gl/j1qW7n</a>
   <br><br>
-  <img src="https://github.com/exequielrafaela/LaTeX_BashScripting-Doc/blob/master/Figuras/linux_negro_blanco.png"  width="200" height="300">
+  <img src="https://github.com/exequielrafaela/Vagrant_Chef-Solo_LAMP/blob/master/images/vagrant_chef.jpg"  width="200" height="300">
 </p>
 
 vagrant-linux-apache-mysql-php
