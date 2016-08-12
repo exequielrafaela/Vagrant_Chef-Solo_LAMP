@@ -84,7 +84,8 @@ Chef Solo is used to provision and configures the following sofware that are com
 - yum-epel
 - yum-mysql-community
 
-## roles - at this time a single role was created for both WEB and DB. Will breakout the role in future update for expanssion and growth. DB credentials are stored in this file also to setup
+## roles - at this time a single role was created for both WEB and DB. 
+Will breakout the role in future update for expanssion and growth. DB credentials are stored in this file also to setup
 roles/vagrant-test-box.rb
 
 ## recipes - setup apache2 vhosts in file 
