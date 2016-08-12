@@ -132,6 +132,7 @@ For example:
 │   ├── Vagrantfile                                                                                                                                                                 
 │   └── Vagrantfile.chef                                                                                                                                                            
 
+## To trigger VAGRANT:
 	vagrant up
 ```
 Wait a few minutes for the server to be created and provisioned.  Access the app by going to this URL: http://www.example.vm/index.php
@@ -139,20 +140,18 @@ Wait a few minutes for the server to be created and provisioned.  Access the app
 
 ### Additional vagrant commands
 **SSH to the box**
-```
+
 	vagrant ssh
 ```
-
 **Re-provision the box to apply the changes you made to the Ansible configuration**
 ```
 	vagrant provision
-
+```
 **Reboot the box**
 ```
 	vagrant reload
 ```
-
 **Shutdown the box**
 ```
 	vagrant halt
-```
+
