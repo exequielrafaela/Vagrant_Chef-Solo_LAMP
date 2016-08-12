@@ -150,6 +150,7 @@ vagrant ssh
 **Re-provision the box to apply the changes you made to the Ansible configuration**
 ```
 vagrant provision
+```
 
 **Reboot the box**
 ```
@@ -160,5 +161,3 @@ vagrant reload
 ```
 vagrant halt
 ```
-
-
