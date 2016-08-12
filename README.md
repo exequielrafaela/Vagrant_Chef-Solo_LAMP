@@ -131,11 +131,11 @@ For example:
 │   ├── site                                                                                                                                                                        
 │   ├── Vagrantfile                                                                                                                                                                 
 │   └── Vagrantfile.chef                                                                                                                                                            
-```
+
 	vagrant up
 ```
-
 Wait a few minutes for the server to be created and provisioned.  Access the app by going to this URL: http://www.example.vm/index.php
+```
 
 ### Additional vagrant commands
 **SSH to the box**
